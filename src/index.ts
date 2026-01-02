@@ -20,7 +20,7 @@ export type PluginDevtoolsJsonOptions = {
   uuid?: string;
   /**
    * The root path for the DevTools project settings.
-   * In monorepo, you can set this to the monorepo root directory, especially when used with [rsbuild-plugin-source-build](https://github.com/rspack-contrib/rsbuild-plugin-source-build).
+   * In monorepo, you can set this to the monorepo root directory, especially when used with [rsbuild-plugin-source-build](https://github.com/rstackjs/rsbuild-plugin-source-build).
    * If not provided, the default root path from Rsbuild context will be used.
    */
   rootPath?: string;
