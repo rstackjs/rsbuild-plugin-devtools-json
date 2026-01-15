@@ -1,6 +1,6 @@
 {
   "name": "rsbuild-plugin-devtools-json",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-devtools-json",
   "license": "MIT",
   "type": "module",
