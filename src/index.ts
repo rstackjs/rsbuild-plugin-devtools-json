@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { logger, type RsbuildPlugin } from '@rsbuild/core';
+import type { RsbuildPlugin } from '@rsbuild/core';
 import { v4, validate } from 'uuid';
 
 interface DevToolsJSON {
@@ -52,7 +52,7 @@ export const pluginDevtoolsJson = (
 
       const uuid = v4();
       fs.writeFileSync(uuidPath, uuid, { encoding: 'utf-8' });
-      logger.debug(
+      api.logger.debug(
         `[rsbuild-plugin-devtools-json] Generated UUID '${uuid}' for DevTools project settings.`,
       );
       return uuid;
