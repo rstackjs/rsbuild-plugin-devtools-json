@@ -17,9 +17,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
+    "build": "rslib",
     "bump": "npx bumpp",
-    "dev": "rslib build --watch",
+    "dev": "rslib -w",
     "format": "biome format --write",
     "lint": "biome check",
     "lint:write": "biome check . --write",
