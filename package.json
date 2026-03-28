@@ -37,7 +37,7 @@
     "@types/node": "24.12.0",
     "nano-staged": "^0.9.0",
     "simple-git-hooks": "^2.13.1",
-    "typescript": "5.9.3",
+    "typescript": "^6.0.2",
     "uuid": "^13.0.0"
   },
   "peerDependencies": {
