@@ -32,8 +32,8 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.8",
-    "@rslib/core": "0.20.0",
+    "@biomejs/biome": "2.4.9",
+    "@rslib/core": "0.20.1",
     "@types/node": "24.12.0",
     "nano-staged": "^0.9.0",
     "simple-git-hooks": "^2.13.1",
