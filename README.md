@@ -27,8 +27,8 @@ npm i -D rsbuild-plugin-devtools-json
 Add it to your Rsbuild config:
 
 ```js
-import { defineConfig } from "@rsbuild/core";
-import { pluginDevtoolsJson } from "rsbuild-plugin-devtools-json";
+import { defineConfig } from '@rsbuild/core';
+import { pluginDevtoolsJson } from 'rsbuild-plugin-devtools-json';
 
 export default defineConfig({
   plugins: [
@@ -42,7 +42,7 @@ While the plugin can generate a UUID and save it in Rsbuild cache, you can also 
 
 ```js
 pluginDevtoolsJson({
-  uuid: "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b",
+  uuid: '6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b',
 });
 ```
 
@@ -50,7 +50,7 @@ You can also specify a custom root path for the DevTools project settings:
 
 ```js
 pluginDevtoolsJson({
-  rootPath: "/path/to/custom/root",
+  rootPath: '/path/to/custom/root',
 });
 ```
 
