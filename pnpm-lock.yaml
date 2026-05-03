@@ -16,7 +16,7 @@ importers:
         specifier: 0.21.3
         version: 0.21.3(core-js@3.47.0)(typescript@6.0.3)
       '@rslint/core':
-        specifier: ^0.5.0
+        specifier: ^0.5.1
         version: 0.5.1
       '@types/node':
         specifier: 24.12.2
