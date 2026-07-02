@@ -31,13 +31,13 @@
     "pre-commit": "pnpm run lint:write"
   },
   "devDependencies": {
-    "@rslib/core": "0.22.1",
-    "@rslint/core": "^0.6.1",
+    "@rslib/core": "0.23.1",
+    "@rslint/core": "^0.6.4",
     "@types/node": "24.13.2",
-    "prettier": "^3.8.4",
+    "prettier": "^3.9.4",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.3",
-    "uuid": "^14.0.0"
+    "uuid": "^14.0.1"
   },
   "peerDependencies": {
     "@rsbuild/core": "^1.4.0 || ^2.0.0"
@@ -47,7 +47,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.6.0",
+  "packageManager": "pnpm@11.9.0",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   }
