@@ -42,7 +42,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.28.5",
+  "packageManager": "pnpm@12.11.2",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   }
